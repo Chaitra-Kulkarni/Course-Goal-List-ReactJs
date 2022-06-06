@@ -1,10 +1,17 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .wrapper-form {
     background-color: #fff;
+    width: 40%;
     display: block;
     margin: 50px 50px;
     padding: 20px;
     line-height: 2rem;
-    border: 1px solid #0a3483;
+    /* border: 1px solid #0a3483; */
     border-radius: 5px;
 }
 
@@ -22,6 +29,8 @@
 
 .course-input > input {
     width: 100%;
+    font-size: 16px;
+    color: #082457;
     padding: 10px 0;
     box-sizing: border-box;
     border: 2px solid #082457;

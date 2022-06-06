@@ -19,18 +19,22 @@ const CourseInput = (props) => {
   };
 
   return (
-    <div className="wrapper-form">
-      <form onSubmit={showListHandler}>
-        <div className="course-input">
-          <label>Course Goal</label>
-          <input
-            type="text"
-            value={enteredValue}
-            onChange={inputChangeHandler}
-          />
-        </div>
-        <button className="course-button" type="submit">Add Goal</button>
-      </form>
+    <div className="wrapper">
+      <div className="wrapper-form">
+        <form onSubmit={showListHandler}>
+          <div className="course-input">
+            <label>Course Goal</label>
+            <input
+              type="text"
+              value={enteredValue}
+              onChange={inputChangeHandler}
+            />
+          </div>
+          <button className="course-button" type="submit">
+            Add Goal
+          </button>
+        </form>
+      </div>
     </div>
   );
 };
