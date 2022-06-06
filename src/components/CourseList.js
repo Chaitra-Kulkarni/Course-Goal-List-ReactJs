@@ -1,6 +1,8 @@
+import "./CourseList.css";
+
 const CourseList = (props) => {
   return (
-    <ul>
+    <ul className="course-list">
       {props.courses.map((course) => (
         <li key={course.id}>
             {course.name}
